@@ -45,7 +45,7 @@ export default function PDFViewer({ courseId, certificateHash }: PDFViewerProps)
         </div>
       </header>
 
-      <main className="flex-1 container mx-auto pt-[50px] pb-[50px]">
+      <main className="flex-1 container mx-auto px-4 md:px-0 pt-0 md:pt-[50px] pb-[50px]">
 
         {/* PDF Viewer */}
         <div className="container mx-auto bg-gray-100 rounded-lg overflow-hidden w-full max-w-[750px] md:max-w-[750px] lg:max-w-[970px] xl:max-w-[1170px]">
